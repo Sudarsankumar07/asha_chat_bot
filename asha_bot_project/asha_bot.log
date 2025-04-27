@@ -1,0 +1,218 @@
+2025-04-27 00:08:41,464 - ERROR - GROQ_API_KEY not set. Please set the environment variable.
+2025-04-27 00:09:16,803 - INFO - Use pytorch device_name: cpu
+2025-04-27 00:09:16,803 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 00:09:21,429 - INFO - Loading faiss with AVX512 support.
+2025-04-27 00:09:21,429 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 00:09:21,429 - INFO - Loading faiss with AVX2 support.
+2025-04-27 00:09:21,449 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 00:09:21,449 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 00:09:21,487 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 00:09:21,488 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 00:09:21,513 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 00:09:28,417 - INFO - Use pytorch device_name: cpu
+2025-04-27 00:09:28,417 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 00:09:32,949 - INFO - Loading faiss with AVX512 support.
+2025-04-27 00:09:32,949 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 00:09:32,949 - INFO - Loading faiss with AVX2 support.
+2025-04-27 00:09:32,970 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 00:09:32,976 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 00:09:32,989 - WARNING -  * Debugger is active!
+2025-04-27 00:09:32,991 - INFO -  * Debugger PIN: 490-733-263
+2025-04-27 00:09:47,107 - INFO - 127.0.0.1 - - [27/Apr/2025 00:09:47] "GET / HTTP/1.1" 200 -
+2025-04-27 00:09:47,192 - INFO - 127.0.0.1 - - [27/Apr/2025 00:09:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-27 00:09:51,553 - ERROR - Session details file not found.
+2025-04-27 00:09:52,067 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-27 00:09:52,067 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-04-27 00:09:52,067 - INFO - 127.0.0.1 - - [27/Apr/2025 00:09:52] "POST /ask HTTP/1.1" 200 -
+2025-04-27 00:15:50,773 - INFO - Use pytorch device_name: cpu
+2025-04-27 00:15:50,775 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 00:15:56,329 - INFO - Loading faiss with AVX512 support.
+2025-04-27 00:15:56,329 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 00:15:56,329 - INFO - Loading faiss with AVX2 support.
+2025-04-27 00:15:56,361 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 00:15:56,366 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 00:15:56,386 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 00:15:56,386 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 00:15:56,406 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 00:16:03,538 - INFO - Use pytorch device_name: cpu
+2025-04-27 00:16:03,538 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 00:16:10,090 - INFO - Loading faiss with AVX512 support.
+2025-04-27 00:16:10,090 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 00:16:10,090 - INFO - Loading faiss with AVX2 support.
+2025-04-27 00:16:10,102 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 00:16:10,102 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 00:16:10,118 - WARNING -  * Debugger is active!
+2025-04-27 00:16:10,118 - INFO -  * Debugger PIN: 490-733-263
+2025-04-27 00:17:07,689 - INFO - 127.0.0.1 - - [27/Apr/2025 00:17:07] "GET / HTTP/1.1" 200 -
+2025-04-27 00:17:07,757 - INFO - 127.0.0.1 - - [27/Apr/2025 00:17:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-27 00:17:13,105 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-27 00:17:13,105 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-04-27 00:17:13,105 - INFO - 127.0.0.1 - - [27/Apr/2025 00:17:13] "POST /ask HTTP/1.1" 200 -
+2025-04-27 00:18:19,018 - INFO - Use pytorch device_name: cpu
+2025-04-27 00:18:19,018 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 00:18:24,008 - INFO - Loading faiss with AVX512 support.
+2025-04-27 00:18:24,008 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 00:18:24,008 - INFO - Loading faiss with AVX2 support.
+2025-04-27 00:18:24,028 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 00:18:24,042 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 00:18:24,056 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 00:18:24,056 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 00:18:24,073 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 00:18:31,589 - INFO - Use pytorch device_name: cpu
+2025-04-27 00:18:31,590 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 00:18:36,514 - INFO - Loading faiss with AVX512 support.
+2025-04-27 00:18:36,514 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 00:18:36,514 - INFO - Loading faiss with AVX2 support.
+2025-04-27 00:18:36,539 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 00:18:36,544 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 00:18:36,548 - WARNING -  * Debugger is active!
+2025-04-27 00:18:36,548 - INFO -  * Debugger PIN: 490-733-263
+2025-04-27 00:18:36,757 - INFO - 127.0.0.1 - - [27/Apr/2025 00:18:36] "GET / HTTP/1.1" 200 -
+2025-04-27 00:18:41,956 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-27 00:18:41,956 - ERROR - Error calling Groq API: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-04-27 00:18:41,957 - INFO - 127.0.0.1 - - [27/Apr/2025 00:18:41] "POST /ask HTTP/1.1" 200 -
+2025-04-27 00:19:53,603 - INFO -  * Detected change in 'C:\\Users\\sudarsan kumar\\OneDrive\\Desktop\\Programs\\Groq_chatbot\\asha_bot_project\\app.py', reloading
+2025-04-27 00:19:53,603 - INFO -  * Detected change in 'C:\\Users\\sudarsan kumar\\OneDrive\\Desktop\\Programs\\Groq_chatbot\\asha_bot_project\\app.py', reloading
+2025-04-27 00:19:53,603 - INFO -  * Detected change in 'C:\\Users\\sudarsan kumar\\OneDrive\\Desktop\\Programs\\Groq_chatbot\\asha_bot_project\\app.py', reloading
+2025-04-27 00:19:55,230 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 00:20:03,025 - INFO - Use pytorch device_name: cpu
+2025-04-27 00:20:03,025 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 00:20:06,840 - INFO - Loading faiss with AVX512 support.
+2025-04-27 00:20:06,840 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 00:20:06,840 - INFO - Loading faiss with AVX2 support.
+2025-04-27 00:20:06,858 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 00:20:06,864 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 00:20:06,875 - WARNING -  * Debugger is active!
+2025-04-27 00:20:06,875 - INFO -  * Debugger PIN: 490-733-263
+2025-04-27 00:20:07,074 - INFO - 127.0.0.1 - - [27/Apr/2025 00:20:07] "GET / HTTP/1.1" 200 -
+2025-04-27 00:20:36,868 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 00:20:38,409 - INFO - 127.0.0.1 - - [27/Apr/2025 00:20:38] "POST /ask HTTP/1.1" 200 -
+2025-04-27 01:01:51,370 - INFO - Use pytorch device_name: cpu
+2025-04-27 01:01:51,370 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 01:01:58,968 - INFO - Loading faiss with AVX512 support.
+2025-04-27 01:01:58,968 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 01:01:58,968 - INFO - Loading faiss with AVX2 support.
+2025-04-27 01:01:59,141 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 01:01:59,157 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 01:01:59,176 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 01:01:59,176 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 01:01:59,207 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 01:02:06,745 - INFO - Use pytorch device_name: cpu
+2025-04-27 01:02:06,745 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 01:02:11,159 - INFO - Loading faiss with AVX512 support.
+2025-04-27 01:02:11,160 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 01:02:11,160 - INFO - Loading faiss with AVX2 support.
+2025-04-27 01:02:11,183 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 01:02:11,192 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 01:02:11,206 - WARNING -  * Debugger is active!
+2025-04-27 01:02:11,213 - INFO -  * Debugger PIN: 490-733-263
+2025-04-27 01:02:11,434 - INFO - 127.0.0.1 - - [27/Apr/2025 01:02:11] "GET / HTTP/1.1" 200 -
+2025-04-27 01:02:17,728 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 01:02:17,760 - ERROR - Analytics file not found or invalid.
+2025-04-27 01:02:17,760 - INFO - 127.0.0.1 - - [27/Apr/2025 01:02:17] "POST /ask HTTP/1.1" 200 -
+2025-04-27 01:02:39,929 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 01:02:39,945 - ERROR - Analytics file not found or invalid.
+2025-04-27 01:02:39,945 - INFO - 127.0.0.1 - - [27/Apr/2025 01:02:39] "POST /ask HTTP/1.1" 200 -
+2025-04-27 16:50:09,994 - INFO - Use pytorch device_name: cpu
+2025-04-27 16:50:09,994 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 16:50:15,596 - INFO - Loading faiss with AVX512 support.
+2025-04-27 16:50:15,596 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 16:50:15,596 - INFO - Loading faiss with AVX2 support.
+2025-04-27 16:50:15,834 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 16:50:15,834 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 16:50:15,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 16:50:15,895 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 16:50:15,912 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 16:50:23,364 - INFO - Use pytorch device_name: cpu
+2025-04-27 16:50:23,364 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 16:50:29,066 - INFO - Loading faiss with AVX512 support.
+2025-04-27 16:50:29,066 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 16:50:29,066 - INFO - Loading faiss with AVX2 support.
+2025-04-27 16:50:29,088 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 16:50:29,092 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 16:50:29,092 - WARNING -  * Debugger is active!
+2025-04-27 16:50:29,107 - INFO -  * Debugger PIN: 119-778-468
+2025-04-27 16:50:42,104 - INFO - 127.0.0.1 - - [27/Apr/2025 16:50:42] "GET / HTTP/1.1" 200 -
+2025-04-27 16:50:42,191 - INFO - 127.0.0.1 - - [27/Apr/2025 16:50:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-27 16:51:36,222 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 16:51:36,242 - ERROR - Analytics file not found or invalid.
+2025-04-27 16:51:36,243 - INFO - 127.0.0.1 - - [27/Apr/2025 16:51:36] "POST /ask HTTP/1.1" 200 -
+2025-04-27 16:51:51,915 - INFO - 127.0.0.1 - - [27/Apr/2025 16:51:51] "GET / HTTP/1.1" 200 -
+2025-04-27 16:53:54,331 - INFO - Use pytorch device_name: cpu
+2025-04-27 16:53:54,331 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 16:53:59,438 - INFO - Loading faiss with AVX512 support.
+2025-04-27 16:53:59,438 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 16:53:59,438 - INFO - Loading faiss with AVX2 support.
+2025-04-27 16:53:59,466 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 16:53:59,472 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 16:53:59,495 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 16:53:59,495 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 16:53:59,530 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 16:54:07,659 - INFO - Use pytorch device_name: cpu
+2025-04-27 16:54:07,659 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 16:54:13,580 - INFO - Loading faiss with AVX512 support.
+2025-04-27 16:54:13,581 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 16:54:13,581 - INFO - Loading faiss with AVX2 support.
+2025-04-27 16:54:13,595 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 16:54:13,595 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 16:54:13,619 - WARNING -  * Debugger is active!
+2025-04-27 16:54:13,625 - INFO -  * Debugger PIN: 119-778-468
+2025-04-27 16:54:13,778 - INFO - 127.0.0.1 - - [27/Apr/2025 16:54:13] "GET / HTTP/1.1" 200 -
+2025-04-27 16:54:19,166 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 16:54:19,178 - ERROR - Analytics file not found or invalid.
+2025-04-27 16:54:19,178 - INFO - 127.0.0.1 - - [27/Apr/2025 16:54:19] "POST /ask HTTP/1.1" 200 -
+2025-04-27 16:54:31,726 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 16:54:31,746 - ERROR - Analytics file not found or invalid.
+2025-04-27 16:54:31,746 - INFO - 127.0.0.1 - - [27/Apr/2025 16:54:31] "POST /ask HTTP/1.1" 200 -
+2025-04-27 16:54:48,778 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 16:54:48,796 - ERROR - Analytics file not found or invalid.
+2025-04-27 16:54:48,796 - INFO - 127.0.0.1 - - [27/Apr/2025 16:54:48] "POST /ask HTTP/1.1" 200 -
+2025-04-27 16:56:06,436 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 16:56:06,456 - ERROR - Analytics file not found or invalid.
+2025-04-27 16:56:06,456 - INFO - 127.0.0.1 - - [27/Apr/2025 16:56:06] "POST /ask HTTP/1.1" 200 -
+2025-04-27 18:46:31,722 - INFO - Use pytorch device_name: cpu
+2025-04-27 18:46:31,722 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 18:46:37,810 - INFO - Loading faiss with AVX512 support.
+2025-04-27 18:46:37,810 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 18:46:37,810 - INFO - Loading faiss with AVX2 support.
+2025-04-27 18:46:38,009 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 18:46:38,009 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 18:46:38,057 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-27 18:46:38,057 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-27 18:46:38,073 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-27 18:46:44,933 - INFO - Use pytorch device_name: cpu
+2025-04-27 18:46:44,933 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-27 18:46:51,298 - INFO - Loading faiss with AVX512 support.
+2025-04-27 18:46:51,300 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-04-27 18:46:51,300 - INFO - Loading faiss with AVX2 support.
+2025-04-27 18:46:51,318 - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-27 18:46:51,324 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-27 18:46:51,328 - WARNING -  * Debugger is active!
+2025-04-27 18:46:51,338 - INFO -  * Debugger PIN: 621-241-282
+2025-04-27 18:47:23,165 - INFO - 127.0.0.1 - - [27/Apr/2025 18:47:23] "GET / HTTP/1.1" 200 -
+2025-04-27 18:47:23,287 - INFO - 127.0.0.1 - - [27/Apr/2025 18:47:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-27 18:47:27,525 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-27 18:47:27,602 - ERROR - Analytics file not found or invalid.
+2025-04-27 18:47:27,602 - INFO - 127.0.0.1 - - [27/Apr/2025 18:47:27] "POST /ask HTTP/1.1" 200 -
